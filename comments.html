@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./CSS/comments-style.css">
+    <link rel="shortcut icon" href="./Images/newspaper-regular.svg" type="image/x-icon">
+
+    <title>Orozco-News</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="container">
+                <img class="ghost" src="./Images/newspaper-regular.svg" alt="">
+            </div>
+            <div class="name">
+                <h1>Orozco News</h1>
+                <p>Information at the click of a button</p>  
+            </div>
+        </header>
+        <section>
+            <h2>Your opinion helps us improve.</h2>
+            <article class="comments-container">
+                <div class="comment" id="comments"></div>
+                <div class="write-comments">
+                    <form id="from" method="post">
+                        <input type="text" id="email" placeholder="email">
+                        <input type="text" id="body" placeholder="Body">
+                        <input type="submit" value="add todo">
+                        <button id="trash"><img src="./Images/trash-alt-solid.svg" alt=""></button>
+                    </form>
+                </div>
+            </article>
+        </section>
+        <footer>
+            <div class="buttons">
+                <div class="home">
+                    <img src="./Images/home-solid.svg" alt="home">
+                    <a href="./Index.html">Home</a>
+                </div>
+                <div class="contact">
+                    <img src="./Images/id-badge-regular.svg" alt="contact">
+                    <a href="#">Contact</a>
+                </div>
+                <div class="comments">
+                    <img src="./Images/comments-regular.svg" alt="home">
+                    <a href="./comments.html"> Comments</a>
+                </div>
+
+               
+            </div>
+            <div class="subscribe">
+                <h4>Subscribe:</h4>
+                <div class="dinamics">
+                   <input type="email" placeholder="Write your email" name="E-mail" id="email">
+                    <input type="tel" placeholder="+5612345667894" name="Phone" id="phone">
+                    <button>Subscribe</button> 
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="./JS/comments.js"></script>
+</body>
+</html>
